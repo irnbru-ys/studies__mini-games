@@ -1,0 +1,62 @@
+.coin {
+	display: block;
+	margin: auto;
+	font-size: 6em;
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+
+.coin div {
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	position: absolute;
+	color: white;
+}
+
+.coin div > img {
+	display: block;
+	width: 100px;
+}
+
+.coin div:first-child {
+	background-color: red;
+	
+}
+
+.coin div:last-child {
+	background-color: blue;
+}
+
+.btn {
+	display: block;
+	width: 250px;
+	margin: auto;
+	font-size: 1.5em;
+	color: white;
+	background-color: black;
+	margin-top: 10px;
+}
+
+.score {
+	/* display: block;
+	margin: auto; */
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.5em;
+}
+.message {
+	font-size: 1em;
+	background-color: #ddd;
+	text-align: center;
+}
+
+.main {
+	margin: auto;
+	width: 300px;
+	background-color: #eee;
+}
