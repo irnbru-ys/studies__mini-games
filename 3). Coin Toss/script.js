@@ -52,9 +52,6 @@ function playGame(event) {
 		btn1.style.display = 'block';
 		btn.style.backgroundColor = 'red';
 		btn1.style.backgroundColor = 'blue';
-		
-		console.log('Start Game')
-
 		addScore()
 	} else if (element.textContent === 'Heads') {
 		coin.style.display = 'block';
