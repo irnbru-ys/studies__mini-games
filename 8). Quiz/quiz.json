@@ -1,0 +1,18 @@
+[
+	{
+		"question": "What color is Grass?",
+		"ans": "Green",
+		"opts": ["Blue", "Red", "Purple"]
+	},
+	{
+		"question": "What color is Ocean?",
+		"ans": "Blue",
+		"opts": ["Green", "Red", "Purple"]
+	},
+	{
+		"question": "What color is sun?",
+		"ans": "Yellow",
+		"opts": ["Blue", "Red", "Purple"]
+	}
+]
+
