@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+.gamearea {
+	margin: auto;
+	text-align: center;
+}
+
+.output>input {
+	height: 40px;
+	text-align: center;
+}
+
+.eles {
+	height: 40px;
+}
+
+.viewer {
+	display: inline-block;
+	width: 220px;
+	height: 200px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.viewer span {
+	display: block;
+}
+
+.viewer span:first-child {
+	color: red;
+	text-align: center;
+	font-size: 1.5em;
+	width: 150px;
+	margin: auto;
+}
+
+.viewer span:last-child {
+	color: black;
+	text-align: center;
+	font-size: 3em;
+	width: 150px;
+	margin: auto;
+}
+
+.dot {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.parentdice {
+	display: grid;
+	gap: 1px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 40px;
+	grid-auto-columns: 40px;
+	justify-items: center;
+	align-items: center;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.btn {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.message {
+	font-size: 1.5rem;
+	color: red;
+}
+
+.message>p {
+	font-size: 2rem;
+	color: green;
+}
